@@ -36,7 +36,7 @@ export default function Navbar(){
                     <Link to="/about" className="navbar-items self-center px-10">About</Link>
                     <Link to="/membership" className="navbar-items self-center px-10">Membership</Link>
                     <Link to="/amenities" className="navbar-items self-center px-10">Amenities</Link>
-                    <Link to="/gallery" className="navbar-items self-center px-10">Gallery</Link>
+                    <Link to="/reservations" className="navbar-items self-center px-10">Reservations</Link>
                     </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import icon1 from "../../Images/w-icon-1.svg"
 import icon2 from "../../Images/w-icon-2.svg"
 import icon3 from "../../Images/w-icon-3.svg"
@@ -17,25 +18,25 @@ export default function Welcome(){
                 <div className="mt-3 px-1 basis-1/4">
                     <img src={icon1} alt="icon" width="100px" className="icon h-[150px]" />
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ">6+ Indoor Sporting Amenities</h1>
-                    <a href="#" className="btn-lm text-2xl">➜</a>
+                    <Link href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
                 
                 <div className="mt-3 px-1 basis-1/4">
                     <img src={icon2} alt="icon" width="100px" className="icon h-[150px]" />
                     <h1 className="text-4xl font-semibold py-10 h-[200px]">Several Membership Options</h1>
-                    <a href="#" className="btn-lm text-2xl">➜</a>
+                    <Link href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
 
                 <div className="mt-3 px-1 basis-1/4">
                     <img src={icon3} alt="icon" width="100px" className="icon h-[150px]"/>
                     <h1 className="text-4xl font-semibold py-10 h-[200px]"> Remarkable Grand Hallways</h1>
-                    <a href="#" className="btn-lm text-2xl">➜</a>
+                    <Link href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
                     
                 <div className="mt-3 px-1 basis-1/4">
                     <img src={icon4} alt="icon" width="100px" className="icon h-[150px]"/>
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ">Fine Dine Restaurants & Cafes</h1>
-                    <a href="#" className="btn-lm text-2xl">➜</a>
+                    <Link href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
             </section>
         </div>
