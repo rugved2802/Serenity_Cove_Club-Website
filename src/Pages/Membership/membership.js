@@ -3,7 +3,6 @@ import {Link} from "react-router-dom"
 import "./membership.css"
 
 export default function Membership(props){
-    console.log(props)
     return(
         <div className="">
             <div className=" w-[580px] p-5 text-white rounded-xl bg-black h-full">

@@ -5,34 +5,33 @@ import "./navbar.css"
 import "../Home/Home.css"
 
 export default function Navbar(){
-//     const [textColor, setTextColor] = useState("black");
+    // const [navbarColor, setNavbarColor] = useState("white");
+    // const [isTransparentBackground, setIsTransparentBackground] = useState(false);
+  
+    // useEffect(() => {
+    //   // Check the background color of the parent element (or body)
+    //   const parentBackgroundColor = window.getComputedStyle(
+    //     document.body.parentNode
+    //   ).getPropertyValue("background-color");
+  
+    //   // If the background color is "transparent" or not defined, set the navbar color to black
+    //   if (parentBackgroundColor === "transparent" || !parentBackgroundColor) {
+    //     setNavbarColor("");
+    //     setIsTransparentBackground(true);
+    //   } else {
+    //     // Otherwise, set it to your default color (e.g., white)
+    //     setNavbarColor("");
+    //     setIsTransparentBackground(false);
+    //   }
+    // }, []);
 
-//   useEffect(() => {
-//     const navbar = document.querySelector(".nav");
-//     const computedStyle = window.getComputedStyle(navbar);
-//     const backgroundColor = computedStyle.backgroundColor;
-//     const isBackgroundColorLight = isLightColor(backgroundColor);
-
-//     // Set text color based on background color
-//         setTextColor(isBackgroundColorLight ? "white" : "black");
-//     }, []);
-
-//   // Function to determine if a background color is light
-//     function isLightColor(backgroundColor) {
-//         const rgbValues = backgroundColor.match(/\d+/g).map(Number);
-//         const luminance =
-//         0.299 * rgbValues[0] + 0.587 * rgbValues[1] + 0.114 * rgbValues[2];
-//         return luminance > 128;
-//     }
-
-// style={{ color: textColor }}
 
     return(
-        <div className="nav">
+        <div className="nav" >
             <div className="flex py-5 navbar justify-between">
                 <img src={logo} alt="logo" className="px-10 content-end" width="225px"  />
                     <div className="flex">
-                    <Link to="/" className="navbar-items self-center px-10 ">Home</Link>
+                    <Link to="/" className="navbar-items self-center px-10">Home</Link>
                     <Link to="/about" className="navbar-items self-center px-10">About</Link>
                     <Link to="/membership" className="navbar-items self-center px-10">Membership</Link>
                     <Link to="/amenities" className="navbar-items self-center px-10">Amenities</Link>
