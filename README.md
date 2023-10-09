@@ -28,7 +28,7 @@ To run this project locally, follow these simple steps:
 
 2. **Install Dependencies:** Use npm to install the necessary dependencies with a single command:
 
-```npm install react react-scripts react-router-dom```
+    ```npm install react react-scripts react-router-dom```
 
 3. **Configuration and Setup:** [Include any additional setup instructions as needed to get your website up and running].
 
