@@ -4,7 +4,7 @@ import "./membership.css"
 
 export default function Membership(props){
     return(
-        <div className="">
+        <div data-aos="zoom-in" data-aos-once="true" data-aos-duration="500">
             <div className=" w-[580px] p-5 text-white rounded-xl bg-black h-full">
             <div className="flex justify-center">
                 <img src={props.img} alt="img" className="rounded-lg mb-3"/>

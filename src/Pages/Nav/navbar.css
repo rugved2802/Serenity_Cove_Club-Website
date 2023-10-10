@@ -12,9 +12,6 @@
     font-weight: 700;
 }
 
-body.transparent-background .navbar-items {
-    color: black; /* Text color when the background is none */
-}
 
 .navbar-items::after {
     content: '';

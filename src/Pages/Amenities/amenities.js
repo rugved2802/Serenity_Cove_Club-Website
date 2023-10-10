@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 export default function Amenities(props){
     return(
-        <div className="">
+        <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500">
             <div className=" relative w-[350px] card">
                 <div className="flex justify-center">
                     <img src={props.img} alt="img" className="w-[350px] picture"/>

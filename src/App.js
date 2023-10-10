@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import {Routes, Route, useLocation} from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Home from "./Pages/Home/Home.js"
 import Footer from "./Pages/Footer/footer.js"
 import Navbar from "./Pages/Nav/navbar.js"
@@ -15,6 +17,10 @@ export default function App(){
     useEffect(() => {
         window.scrollTo({top: 0, behavior: "smooth"});
     }, [pathname])
+
+    useEffect (() => {
+        Aos.init({ duration: 500 });
+      }, []);
 
 
     return(

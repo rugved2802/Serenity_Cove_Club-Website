@@ -5,26 +5,6 @@ import "./navbar.css"
 import "../Home/Home.css"
 
 export default function Navbar(){
-    // const [navbarColor, setNavbarColor] = useState("white");
-    // const [isTransparentBackground, setIsTransparentBackground] = useState(false);
-  
-    // useEffect(() => {
-    //   // Check the background color of the parent element (or body)
-    //   const parentBackgroundColor = window.getComputedStyle(
-    //     document.body.parentNode
-    //   ).getPropertyValue("background-color");
-  
-    //   // If the background color is "transparent" or not defined, set the navbar color to black
-    //   if (parentBackgroundColor === "transparent" || !parentBackgroundColor) {
-    //     setNavbarColor("");
-    //     setIsTransparentBackground(true);
-    //   } else {
-    //     // Otherwise, set it to your default color (e.g., white)
-    //     setNavbarColor("");
-    //     setIsTransparentBackground(false);
-    //   }
-    // }, []);
-
 
     return(
         <div className="nav" >
@@ -39,5 +19,6 @@ export default function Navbar(){
                     </div>
             </div>
         </div>
+        
     )
 }

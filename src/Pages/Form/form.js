@@ -14,53 +14,53 @@ export default function Form(){
                 width=""
                 height="720" 
                 style={iframeStyles} 
-                allowfullscreen="" 
+                allowFullScreen="" 
                 loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
                 className="w-[50%]">
             </iframe> 
 
             <form action="#" className="my-20 w-[47%]">
                 <h1 className="text-2xl font-semibold head py-3 ml-4">CONTACT US</h1>
                 <h2 className="text-5xl font-bold ml-4">Have Any Questions? <br /> Get in Touch!</h2>
-                <div class="form-row grid grid-cols-2">
-                        <div class="input-data">
+                <div className="form-row grid grid-cols-2">
+                        <div className="input-data">
                             <input type="text" required />
                             <div className="underline"></div>
-                            <label for="">First Name</label>
+                            <label htmlFor="">First Name</label>
                         </div>
 
-                        <div class="input-data">
+                        <div className="input-data">
                             <input type="text" required />
-                            <div class="underline"></div>
-                            <label for="">Last Name</label>
+                            <div className="underline"></div>
+                            <label htmlFor="">Last Name</label>
                         </div>
                 </div>
 
-                <div class="form-row grid grid-cols-2">
-                        <div class="input-data">
+                <div className="form-row grid grid-cols-2">
+                        <div className="input-data">
                             <input type="text" required />
-                            <div class="underline"></div>
-                            <label for="">Email Address</label>
+                            <div className="underline"></div>
+                            <label htmlFor="">Email Address</label>
                         </div>
 
-                        <div class="input-data">
+                        <div className="input-data">
                             <input type="tel" required />
-                            <div class="underline"></div>
-                            <label for="">Phone</label>
+                            <div className="underline"></div>
+                            <label htmlFor="">Phone</label>
                         </div>
                 </div>
 
-                <div class="form-row">
-                        <div class="input-data textarea">
+                <div className="form-row">
+                        <div className="input-data textarea">
                             <textarea rows="8" cols="10" required></textarea>
                             <br />
-                            <div class="underline"></div>
-                            <label for="">Write your message</label>
+                            <div className="underline"></div>
+                            <label htmlFor="">Write your message</label>
                             
-                            <div class="submit-btn">
-                                <div class="input-data">
-                                    <div class="inner"></div>
+                            <div className="submit-btn">
+                                <div className="input-data">
+                                    <div className="inner"></div>
                                     <input type="submit" value="submit" />
                                 </div>
                             </div>

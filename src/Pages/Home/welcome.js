@@ -15,28 +15,28 @@ export default function Welcome(){
             </section>
 
             <section className="flex py-20 gap-x-2 divide-x divide-black">
-                <div className="mt-3 px-1 basis-1/4">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="200" className="mt-3 px-1 basis-1/4">
                     <img src={icon1} alt="icon" width="100px" className="icon h-[150px]" />
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ">6+ Indoor Sporting Amenities</h1>
-                    <Link href="#" className="btn-lm text-2xl">➜</Link>
+                    <Link  href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
                 
-                <div className="mt-3 px-1 basis-1/4">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="600" className="mt-3 px-1 basis-1/4">
                     <img src={icon2} alt="icon" width="100px" className="icon h-[150px]" />
                     <h1 className="text-4xl font-semibold py-10 h-[200px]">Several Membership Options</h1>
-                    <Link href="#" className="btn-lm text-2xl">➜</Link>
+                    <Link  href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
 
-                <div className="mt-3 px-1 basis-1/4">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" className="mt-3 px-1 basis-1/4">
                     <img src={icon3} alt="icon" width="100px" className="icon h-[150px]"/>
                     <h1 className="text-4xl font-semibold py-10 h-[200px]"> Remarkable Grand Hallways</h1>
-                    <Link href="#" className="btn-lm text-2xl">➜</Link>
+                    <Link  href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
                     
-                <div className="mt-3 px-1 basis-1/4">
+                <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1400" className="mt-3 px-1 basis-1/4">
                     <img src={icon4} alt="icon" width="100px" className="icon h-[150px]"/>
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ">Fine Dine Restaurants & Cafes</h1>
-                    <Link href="#" className="btn-lm text-2xl">➜</Link>
+                    <Link  href="#" className="btn-lm text-2xl">➜</Link>
                 </div>
             </section>
         </div>
