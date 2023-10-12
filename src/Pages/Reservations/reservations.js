@@ -5,7 +5,7 @@ import "./reservations.css"
 export default function Reservations(props){
     return(
         <div>
-            <div className=" w-[580px] p-5 text-white rounded-xl bg-black h-full">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500" className=" w-[580px] p-5 text-white rounded-xl bg-black h-full">
                 <div className="flex justify-center">
                     <img src={props.img} alt="img" className="rounded-lg mb-3"/>
                 </div>

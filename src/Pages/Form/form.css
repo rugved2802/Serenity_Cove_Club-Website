@@ -56,13 +56,13 @@ form .form-row .input-data{
     transition: transform 0.3s ease;
     
   }
-  /* .input-data input:focus ~ .underline:before,
-  .input-data input:valid ~ .underline:before,*/
+  .input-data input:focus ~ .underline:before,
+  .input-data input:valid ~ .underline:before,
   .textarea textarea:focus ~ .underline:before, 
   .textarea textarea:valid ~ .underline:before{
     transform: scale(1);
-    
   }
+  
   .submit-btn .input-data{
     overflow: hidden;
     height: 45px!important;

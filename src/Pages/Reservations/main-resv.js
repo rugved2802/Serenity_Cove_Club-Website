@@ -16,7 +16,7 @@ export default function Main(){
     
     
     return(
-        <div className="main">
+        <div className="main bg-gradient-to-r from-[#525252] to-[#3d72b4]">
             <h1 className="text-center text-6xl font-bold">Reservations</h1>
             <div className="flex flex-wrap card-resv">
                 {cards}
