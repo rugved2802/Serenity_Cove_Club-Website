@@ -30,7 +30,7 @@ To run this project locally, follow these simple steps:
 
     ```npm install react react-scripts react-router-dom```
 
-3. **Configuration and Setup:** [Include any additional setup instructions as needed to get your website up and running].
+3. **Configuration and Setup:** For CSS animation: "https://github.com/michalsnik/aos"
 
 ## Contributing
 

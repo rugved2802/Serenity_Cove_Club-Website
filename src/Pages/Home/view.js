@@ -15,7 +15,7 @@ export default function View(){
                     DISCOVER THE EXCITEMENT AND THRILL.
                 </h1>
                 <p className="mb-12">Welcome to Serenity Cove Club, a haven of peace and luxury nestled amidst nature's embrace. Indulge in our exclusive amenities, where serenity meets sophistication. Immerse yourself in a world of tranquility, where every moment is a soothing escape from the hustle and bustle of life. Discover the essence of true relaxation at Serenity Cove Club.</p>
-                <Link to="/" className="btn-view text-xl">View all amenities</Link>
+                <Link to="/amenities" className="btn-view text-xl">View all amenities</Link>
             </div>
             <div className="grid grid-cols-3 mt-6">
                 <img src={pic1} alt="pic" className="image ml-48"  />
