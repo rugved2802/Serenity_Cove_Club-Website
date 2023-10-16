@@ -29,10 +29,5 @@ const memData = [
     description: "Committing to a lifelong journey of tranquility and leisure, I am honored to seek a Lifetime Membership at Serenity Cove Club. With this enduring commitment comes a promise of perpetual access to the club's exceptional offerings, fostering a sense of belonging that transcends time. I eagerly anticipate a lifetime of enriching experiences and cherished moments within the serene embrace of Serenity Cove."
 }
 
-
-
-
-
-
 ]
 export default memData;
