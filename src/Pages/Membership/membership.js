@@ -3,6 +3,7 @@ import {Link} from "react-router-dom"
 import "./membership.css"
 
 export default function Membership(props){
+    
     return(
         <div data-aos="fade-up" data-aos-once="true" data-aos-duration="500">
             <div className=" w-[620px] p-5 text-white rounded-xl bg-black h-full">
@@ -15,7 +16,7 @@ export default function Membership(props){
                 <div className="text-xl mb-6 font-extralight">
                     {props.description}
                 </div>
-                <Link to="/resv-mem" className="btn-know font-bold text-lg">Book now</Link>
+                <Link to="/login" className="btn-know font-bold text-lg">Book now</Link>
             </div>
         </div>
     )

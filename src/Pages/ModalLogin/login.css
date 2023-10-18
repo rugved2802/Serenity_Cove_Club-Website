@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    z-index: 1;
+}
+
+.box{
+    box-shadow: rgba (0, 0, 0, 0.35) 0px 5px 15px;
+}

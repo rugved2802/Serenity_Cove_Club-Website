@@ -6,7 +6,6 @@ import memData from "../Membership/memData";
 export default function Reservations(){
     return(
         <div className="main bg-[#0C090A] text-white">
-            {/* <h1 className="text-center text-6xl font-bold heading">Reservations</h1> */}
             <div className="flex flex-wrap px-4 justify-around">
             {/* Membership */}
             <section className="px-5 w-[70%] py-5 rounded-3xl">
@@ -44,6 +43,7 @@ export default function Reservations(){
                     <div className="grid grid-rows-2 w-[50%] ml-4">
                         <label htmlFor="membershipType" className="my-2 font-semibold">Select Membership Type:</label>
                         <select id="membershipType" name="membershipType" className="bg-inherit">
+                        <option value="none" className="bg-black">None</option>
                         {memData.map((membership) => (
                         <option key={membership.id} value={membership.title} className="bg-black">
                         {membership.title}

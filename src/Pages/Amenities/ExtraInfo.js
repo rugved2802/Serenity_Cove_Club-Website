@@ -1,5 +1,27 @@
 import React, { useEffect } from "react";
-import "./amenities.css"
+import "./amenities.css";
+import "./amenData.js";
+import id1 from "../../Images/amen-1.png";
+import id2 from "../../Images/amen-2.png";
+import id3 from "../../Images/amen-3.png";
+import id4 from "../../Images/amen-4.png";
+import id5 from "../../Images/amen-5.png";
+import id6 from "../../Images/amen-6.png";
+import id7 from "../../Images/amen-7.png";
+import id8 from "../../Images/amen-8.png";
+import id9 from "../../Images/amen-9.png";
+import id10 from "../../Images/amen-10.png";
+import id11 from "../../Images/amen-11.png";
+import id12 from "../../Images/amen-12.png";
+import id13 from "../../Images/amen-13.png";
+import id14 from "../../Images/amen-14.png";
+import id15 from "../../Images/amen-15.png";
+import id16 from "../../Images/amen-16.png";
+import id17 from "../../Images/amen-17.png";
+import id18 from "../../Images/amen-18.png";
+import id19 from "../../Images/amen-19.png";
+import id20 from "../../Images/amen-20.png";
+import id21 from "../../Images/amen-21.png";
 
 export default function Main(){
     useEffect(() => {
@@ -22,46 +44,239 @@ export default function Main(){
 
       return(
         <div className="main px-20">
-            <h1 className="text-center text-6xl font-bold mb-[92px]">Amenities</h1>
-            <section id="Càfe">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <h2 className="text-center text-6xl font-bold mb-[92px]">Infograph</h2>
+            <section id="Càfe" className="flex py-24">
+            <div>
+              <img src={id1} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Càfe</h1>
+              <p>Our cafe is a charming and inviting space where you can take a break, meet with friends, or simply unwind in style.
 
-                Why do we use it?
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              At our cafe, we serve a carefully curated selection of gourmet coffee, refreshing beverages, and delicious snacks. Whether you prefer a classic cappuccino or a soothing herbal tea, our skilled baristas are here to craft your perfect drink. The cafe also offers a delectable menu of pastries, sandwiches, and light bites, ensuring you stay energized and satisfied during your visit.
 
+              Our cafe is not just about great food and drinks; it's a social hub within our club. It's a place to connect with fellow members, discuss club activities, or simply relax after a workout or game. With a cozy ambiance and comfortable seating, it's the ideal spot to have casual meetings or catch up on some work in a relaxed setting.
 
-                Where does it come from?
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-
-                Where can I get some?
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-            <br />
-            <br />
-            <br />
+              We also host special events at the cafe, from themed parties to live music nights, making it a vibrant part of our club's social calendar. So, whether you're looking for a quick coffee fix, a cozy hangout, or a place to celebrate with friends, our cafe is here to make your club experience even more enjoyable. Come and savor the flavors of community and camaraderie at our exclusive club cafe.</p>
+            </div>
             </section>
-            <section id="Swimming Pool">
-                What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-                Why do we use it?
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            <section id="Swimming Pool" className="flex py-24">
+            <div>
+              <img src={id2} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Swimming Pool</h1>
+              <p>Dive into a world of relaxation, fitness, and fun as you explore the myriad benefits that our swimming pool offers.
 
+              Our pool is more than just a place to cool off during hot summer days; it's a hub of activity for members of all ages. Whether you're a serious swimmer looking to improve your strokes or someone who just wants to unwind in the water, our pool caters to your needs.
 
-                Where does it come from?
-                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+              For those seeking a fantastic workout, our swimming pool is the ideal place. Swimming is a full-body exercise that improves cardiovascular health, muscle strength, and flexibility. It's a low-impact activity, making it suitable for individuals of all fitness levels, including those recovering from injuries.
 
-                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              Families love our pool for the endless hours of entertainment it provides. Kids can splash and play in the shallower areas, while adults can relax and socialize in the sun loungers or hot tub nearby.
 
-                Where can I get some?
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-            <br />
-            <br />
-            <br />
+              Our pool area is designed to be a tranquil oasis, with lush landscaping and comfortable seating, making it the perfect place to escape the daily grind and rejuvenate. So whether you're looking for exercise, leisure, or quality family time, our swimming pool is your go-to amenity. Come and make a splash at our club today!</p>
+            </div>
             </section>
-            
+
+            <section id="Gym" className="flex py-24">
+            <div>
+              <img src={id3} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Gym</h1>
+              <p>Our gym is more than just a place to break a sweat; it's a dedicated space for you to transform your health and well-being.
+
+              Our gym is equipped with a wide range of modern exercise machines and free weights, ensuring that you have all the tools you need to achieve your fitness goals. Whether you're a seasoned athlete or new to exercise, you'll find a welcoming environment that accommodates all fitness levels.
+
+              Our certified trainers are here to provide guidance, support, and personalized workout plans to help you reach your objectives. We offer various fitness classes, from high-intensity interval training to yoga, allowing you to diversify your workouts and keep things interesting.
+
+              In addition to the physical benefits, our gym fosters a sense of community. Connect with fellow members who share your fitness aspirations, and together, you can motivate one another to push your limits. Our clean, spacious, and well-ventilated facility ensures a comfortable workout experience.
+
+              Your health and fitness are paramount to us, and our gym is here to facilitate your journey towards a healthier, stronger, and happier you. We invite you to explore our fitness center and embark on a transformative path to wellness. Your fitness goals are within reach at our club's gym.</p>
+            </div>
+            </section>
+
+            <section id="Restaurant" className="flex py-24">
+            <div>
+              <img src={id4} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Restaurant</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Spa" className="flex py-24">
+            <div>
+              <img src={id5} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Spa</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Conference room" className="flex py-24">
+            <div>
+              <img src={id6} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Conference room</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Bowling alley" className="flex py-24">
+            <div>
+              <img src={id7} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Bowling alley</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Jacuzzi" className="flex py-24">
+            <div>
+              <img src={id8} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Jacuzzi</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Squash" className="flex py-24">
+            <div>
+              <img src={id9} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Squash</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Banquets" className="flex py-24">
+            <div>
+              <img src={id10} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Banquets</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Cricket ground" className="flex py-24">
+            <div>
+              <img src={id11} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Cricket ground</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Salon" className="flex py-24">
+            <div>
+              <img src={id12} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Salon</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Pool Table" className="flex py-24">
+            <div>
+              <img src={id13} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Pool Table</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Badminton Court" className="flex py-24">
+            <div>
+              <img src={id14} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Badminton Court</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Basketball Court" className="flex py-24">
+            <div>
+              <img src={id15} width="450px" alt="img" className="py-8" />
+            </div>
+            <div  className="textwrite">
+              <h1 className="texthead">Basketball Court</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Arcade" className="flex py-24">
+            <div>
+              <img src={id16} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Arcade</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Bar" className="flex py-24">
+            <div>
+              <img src={id17} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Bar</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Sleeping Pods" className="flex py-24">
+            <div>
+              <img src={id18} width="450px" alt="img" className="" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Sleeping Pods</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Mini Theatre" className="flex py-24">
+            <div>
+              <img src={id19} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Mini Theatre</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Library" className="flex py-24">
+            <div>
+              <img src={id20} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Library</h1>
+              <p></p>
+            </div>
+            </section>
+
+            <section id="Children's Play Area" className="flex py-24">
+            <div>
+              <img src={id21} width="450px" alt="img" className="py-8" />
+            </div>
+            <div className="textwrite">
+              <h1 className="texthead">Children's Play Area</h1>
+              <p></p>
+            </div>
+
+            </section>
         </div>
       )
-}
+    }

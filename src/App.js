@@ -12,6 +12,7 @@ import XInfo from "./Pages/Amenities/ExtraInfo.js"
 import Packages from "./Pages/Packages/main-pack.js";
 import ReservationsMem from "./Pages/Reservations/resv-mem.js"
 import ReservationsPack from "./Pages/Reservations/resv-pack.js";
+import Login from "./Pages/ModalLogin/login.js"
 
 
 export default function App(){
@@ -38,6 +39,7 @@ export default function App(){
                     <Route path="/resv-mem" element={<ReservationsMem />} />
                     <Route path="/resv-pack" element={<ReservationsPack />} />
                     <Route path="/xinfo" element={<XInfo />} />
+                    <Route path="/login" element={<Login />} />
                 </Routes>
                 <Footer />
             </div>

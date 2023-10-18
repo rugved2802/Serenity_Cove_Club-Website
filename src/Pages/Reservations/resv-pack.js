@@ -57,10 +57,29 @@ export default function Reservations(){
                             <label className="my-2 font-semibold">Choose a Date:</label>
                             <input type="date" id="date" name="date" min="2023-10-18" max="2030-10-18" required className="calendar my-2"/>
                     </div>
+
+                    <div className="grid grid-rows-2 w-[94%] ml-4 mt-5">
+                        <label htmlFor="guestType" className="my-2 font-semibold">No. of Guests:</label>
+                        <select id="guestType" name="guestType" className="bg-inherit w-[96.3%]">
+                        <option value="none" className="bg-black">1</option>
+                        <option value="none" className="bg-black">2</option>
+                        <option value="none" className="bg-black">3</option>
+                        <option value="none" className="bg-black">4</option>
+                        <option value="none" className="bg-black">5</option>
+                        <option value="none" className="bg-black">6</option>
+                        <option value="none" className="bg-black">7</option>
+                        <option value="none" className="bg-black">8</option>
+                        </select>
+                    </div>
+
+                    
+
+
+
                     
                     <div className="grid grid-rows-2 w-[94%] ml-4 mt-5">
                         <label htmlFor="amenityType" className="my-2 font-semibold">Select Amenity Type:</label>
-                        <select id="amenityType" name="amenityType" className="bg-inherit w-[96.5%]">
+                        <select id="amenityType" name="amenityType" className="bg-inherit w-[96.3%]">
                         <option value="none" className="bg-black">None</option> {/* Placeholder option */}
                         {amenData.map((amenity) => (
                         <option key={amenity.id} value={amenity.title} className="bg-black">

@@ -7,8 +7,8 @@ export default function OneOf(){
     return(
         <div className="flex flex-wrap text-xl mb-10 justify-evenly gap-y-40 mx-10 ">
             <section className="relative h-[700px] w-[480px]">
-                <img data-aos="fade-up" data-aos-duration="500" src={photo} alt="a" width="450px" />
-                <span data-aos="fade-up" data-aos-duration="100" className="textbox text-4xl">State-of-the-art <br /> Facilites</span>
+                <img data-aos="fade-up" data-aos-duration="300" data-aos-once="true" src={photo} alt="a" width="450px" />
+                <span data-aos="fade-up" data-aos-duration="100" data-aos-once="true" className="textbox text-4xl">State-of-the-art <br /> Facilites</span>
                 <Link to="/about" className="btn-more text-2xl">More About Us</Link>
             </section>
             <section className="w-[640px] ml-10 flex flex-col content-center">
