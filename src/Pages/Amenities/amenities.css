@@ -74,10 +74,19 @@
     filter: blur(2px);
 }
 
-.textwrite {
-    width: 50%; 
-    padding: 32px;
-    margin-left: 48px;
+.sect {
+    display: flex;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    justify-content: space-around;
+}
+
+
+.textwrite { 
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 750px;
+
 }
 
 .texthead {
@@ -85,4 +94,5 @@
     line-height: 1;
     font-weight: 600;
     color: #B18A00;
+    margin-bottom: 10px;
 }

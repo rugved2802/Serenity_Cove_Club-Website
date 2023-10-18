@@ -45,7 +45,7 @@ export default function Main(){
       return(
         <div className="main px-20">
             <h2 className="text-center text-6xl font-bold mb-[92px]">Infograph</h2>
-            <section id="Càfe" className="flex py-24">
+            <section id="Càfe" className="sect">
             <div>
               <img src={id1} width="450px" alt="img" className="py-8" />
             </div>
@@ -61,7 +61,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Swimming Pool" className="flex py-24">
+            <section id="Swimming Pool" className="sect">
             <div>
               <img src={id2} width="450px" alt="img" className="py-8" />
             </div>
@@ -79,7 +79,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Gym" className="flex py-24">
+            <section id="Gym" className="sect">
             <div>
               <img src={id3} width="450px" alt="img" className="py-8" />
             </div>
@@ -97,27 +97,42 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Restaurant" className="flex py-24">
+            <section id="Restaurant" className="sect">
             <div>
               <img src={id4} width="450px" alt="img" className="py-8" />
             </div>
             <div className="textwrite">
               <h1 className="texthead">Restaurant</h1>
-              <p></p>
+              <p>As a cherished amenity, our restaurant offers a delightful dining experience within the comfort of our exclusive club environment.
+
+              At our restaurant, we take pride in providing a diverse and delectable menu, featuring a range of culinary delights to tantalize your taste buds. From sumptuous appetizers to mouthwatering main courses and delectable desserts, our skilled chefs craft every dish with precision and a dash of creativity.
+
+              The restaurant isn't just about food; it's a place to savor exceptional moments. Whether you're celebrating a special occasion with loved ones, enjoying a casual meal with friends, or simply seeking a peaceful dining experience, our restaurant is the perfect setting. Our attentive staff ensures that your dining experience is a memorable one, marked by exceptional service and attention to detail.
+
+              In addition to our regular menu, we frequently host themed nights, special events, and promotions, making each visit a unique and exciting experience. So, whether you're a connoisseur of fine dining or simply seeking a convenient and welcoming place to enjoy a meal, our restaurant is the ideal spot to satisfy your cravings and create lasting memories. Come and indulge in the exquisite flavors and warm hospitality that our club restaurant has to offer.</p>
             </div>
             </section>
 
-            <section id="Spa" className="flex py-24">
+            <section id="Spa" className="sect">
             <div>
               <img src={id5} width="450px" alt="img" className="py-8" />
             </div>
             <div className="textwrite">
               <h1 className="texthead">Spa</h1>
-              <p></p>
+              <p>A luxurious amenity at our club designed to provide you with a rejuvenating escape from the hustle and bustle of daily life. Our spa is your oasis of tranquility, offering a wide range of services and facilities to enhance your overall well-being.
+
+              Indulge in a world of relaxation as you step into our serene spa environment. Our highly skilled and trained professionals are dedicated to providing you with an exceptional wellness experience. From massages and facials to body treatments and more, we offer a variety of spa services tailored to meet your unique needs.
+
+              Our spa is equipped with state-of-the-art facilities, including saunas, steam rooms, and hot tubs, creating a perfect ambiance for unwinding and de-stressing. You can also take advantage of our fitness center to complement your spa experience, ensuring that you leave feeling refreshed, revitalized, and rejuvenated.
+
+              Whether you're seeking a solo escape or planning a spa day with friends, our spa is the ideal destination. We believe in the power of self-care and well-being, and our spa is designed to be your sanctuary for relaxation, self-pampering, and rejuvenation.
+
+              Experience the epitome of relaxation and wellness at our club's spa. We invite you to treat yourself to a spa day that will leave you feeling rejuvenated, refreshed, and ready to face the world anew.
+              </p>
             </div>
             </section>
 
-            <section id="Conference room" className="flex py-24">
+            <section id="Conference room" className="sect">
             <div>
               <img src={id6} width="450px" alt="img" className="py-8" />
             </div>
@@ -127,7 +142,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Bowling alley" className="flex py-24">
+            <section id="Bowling alley" className="sect">
             <div>
               <img src={id7} width="450px" alt="img" className="py-8" />
             </div>
@@ -137,7 +152,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Jacuzzi" className="flex py-24">
+            <section id="Jacuzzi" className="sect">
             <div>
               <img src={id8} width="450px" alt="img" className="py-8" />
             </div>
@@ -147,7 +162,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Squash" className="flex py-24">
+            <section id="Squash" className="sect">
             <div>
               <img src={id9} width="450px" alt="img" className="py-8" />
             </div>
@@ -157,7 +172,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Banquets" className="flex py-24">
+            <section id="Banquets" className="sect">
             <div>
               <img src={id10} width="450px" alt="img" className="py-8" />
             </div>
@@ -167,7 +182,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Cricket ground" className="flex py-24">
+            <section id="Cricket ground" className="sect">
             <div>
               <img src={id11} width="450px" alt="img" className="py-8" />
             </div>
@@ -177,7 +192,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Salon" className="flex py-24">
+            <section id="Salon" className="sect">
             <div>
               <img src={id12} width="450px" alt="img" className="py-8" />
             </div>
@@ -187,7 +202,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Pool Table" className="flex py-24">
+            <section id="Pool Table" className="sect">
             <div>
               <img src={id13} width="450px" alt="img" className="py-8" />
             </div>
@@ -197,7 +212,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Badminton Court" className="flex py-24">
+            <section id="Badminton Court" className="sect">
             <div>
               <img src={id14} width="450px" alt="img" className="py-8" />
             </div>
@@ -207,7 +222,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Basketball Court" className="flex py-24">
+            <section id="Basketball Court" className="sect">
             <div>
               <img src={id15} width="450px" alt="img" className="py-8" />
             </div>
@@ -217,7 +232,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Arcade" className="flex py-24">
+            <section id="Arcade" className="sect">
             <div>
               <img src={id16} width="450px" alt="img" className="py-8" />
             </div>
@@ -227,7 +242,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Bar" className="flex py-24">
+            <section id="Bar" className="sect">
             <div>
               <img src={id17} width="450px" alt="img" className="py-8" />
             </div>
@@ -237,7 +252,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Sleeping Pods" className="flex py-24">
+            <section id="Sleeping Pods" className="sect">
             <div>
               <img src={id18} width="450px" alt="img" className="" />
             </div>
@@ -247,7 +262,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Mini Theatre" className="flex py-24">
+            <section id="Mini Theatre" className="sect">
             <div>
               <img src={id19} width="450px" alt="img" className="py-8" />
             </div>
@@ -257,7 +272,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Library" className="flex py-24">
+            <section id="Library" className="sect">
             <div>
               <img src={id20} width="450px" alt="img" className="py-8" />
             </div>
@@ -267,7 +282,7 @@ export default function Main(){
             </div>
             </section>
 
-            <section id="Children's Play Area" className="flex py-24">
+            <section id="Children's Play Area" className="sect">
             <div>
               <img src={id21} width="450px" alt="img" className="py-8" />
             </div>
