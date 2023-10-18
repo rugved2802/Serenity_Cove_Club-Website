@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import {Routes, Route, useLocation} from "react-router-dom";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import Home from "./Pages/Home/Home.js"
 import Footer from "./Pages/Footer/footer.js"
 import Navbar from "./Pages/Nav/navbar.js"
@@ -12,7 +11,8 @@ import XInfo from "./Pages/Amenities/ExtraInfo.js"
 import Packages from "./Pages/Packages/main-pack.js";
 import ReservationsMem from "./Pages/Reservations/resv-mem.js"
 import ReservationsPack from "./Pages/Reservations/resv-pack.js";
-import Login from "./Pages/ModalLogin/login.js"
+import LearnMore from "./Pages/Home/lm.js"
+import "aos/dist/aos.css";
 
 
 export default function App(){
@@ -39,7 +39,7 @@ export default function App(){
                     <Route path="/resv-mem" element={<ReservationsMem />} />
                     <Route path="/resv-pack" element={<ReservationsPack />} />
                     <Route path="/xinfo" element={<XInfo />} />
-                    <Route path="/login" element={<Login />} />
+                    <Route path="/lm" element={<LearnMore />} />
                 </Routes>
                 <Footer />
             </div>

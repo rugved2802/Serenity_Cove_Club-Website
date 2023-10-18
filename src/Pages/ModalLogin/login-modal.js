@@ -3,10 +3,9 @@ import {Link} from "react-router-dom";
 import cross from "../../Images/cross.png"
 
 export default function Login({ closeModal }){
-
     return(
-        <div className="z-50 flex justify-center items-start box">
-        <div className="bg-white w-[500px] h-[500px] fixed rounded-xl">
+        <div className="ml-[500px]">
+        <div className="bg-[#1d181a] w-[500px] h-[500px] fixed text-white rounded-xl">
             <div className="flex flex-wrap justify-around mt-6">
             {/* Membership */}
             <section className="px-5 rounded-3xl">
@@ -38,7 +37,7 @@ export default function Login({ closeModal }){
                                     <input type="submit" value="Submit" />
                                 </div>
                     </div>
-                    <Link to="/resv-mem" className="text-xl ml-6">Not a Member yet?</Link>
+                    <Link to="/resv-mem" className="text-xl ml-6 btn-abc" onClick={() => closeModal(false)}>Not a Member yet?</Link>
                 </form>
             </section>
             </div>

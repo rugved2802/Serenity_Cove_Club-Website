@@ -138,7 +138,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Conference room</h1>
-              <p></p>
+              <p>Elevate your corporate meetings and events in our modern conference room. This versatile space is equipped with the latest technology and comfortable seating, providing the perfect environment for productive meetings, presentations, and training sessions. Enjoy natural lighting and professional support, ensuring that your business gatherings are a success. With catering services available, you can keep your team refreshed and focused throughout your sessions. Book our conference room today to take your corporate events to the next level.Elevate your corporate meetings and events in our modern conference room. This versatile space is equipped with the latest technology and comfortable seating, providing the perfect environment for productive meetings, presentations, and training sessions. Enjoy natural lighting and professional support, ensuring that your business gatherings are a success. With catering services available, you can keep your team refreshed and focused throughout your sessions. Book our conference room today to take your corporate events to the next level.</p>
             </div>
             </section>
 
@@ -148,7 +148,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Bowling alley</h1>
-              <p></p>
+              <p>Experience endless fun and excitement in our sleek bowling alley. Whether you're planning a night out with friends or a family gathering, our state-of-the-art lanes and automatic scoring system guarantee a fantastic time. With a variety of snacks and drinks available, you can enjoy a complete entertainment package. Come roll with us and strike up some unforgettable memories.Relax and rejuvenate in our luxurious Jacuzzi. Let the warm, bubbling waters melt away your stress and worries, providing the ultimate soothing experience. Whether you're looking for a tranquil escape or a romantic evening, our Jacuzzi is the perfect oasis. Immerse yourself and unwind in pure bliss. Experience endless fun and excitement in our sleek bowling alley. Whether you're planning a night out with friends or a family gathering, our state-of-the-art lanes and automatic scoring system guarantee a fantastic time. With a variety of snacks and drinks available, you can enjoy a complete entertainment package. Come roll with us and strike up some unforgettable memories.Relax and rejuvenate in our luxurious Jacuzzi. Let the warm, bubbling waters melt away your stress and worries, providing the ultimate soothing experience. Whether you're looking for a tranquil escape or a romantic evening, our Jacuzzi is the perfect oasis. Immerse yourself and unwind in pure bliss.</p>
             </div>
             </section>
 
@@ -158,7 +158,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Jacuzzi</h1>
-              <p></p>
+              <p>Relax and rejuvenate in our luxurious Jacuzzi. Let the warm, bubbling waters melt away your stress and worries, providing the ultimate soothing experience. Whether you're looking for a tranquil escape or a romantic evening, our Jacuzzi is the perfect oasis. Immerse yourself and unwind in pure bliss.Experience endless fun and excitement in our sleek bowling alley. Whether you're planning a night out with friends or a family gathering, our state-of-the-art lanes and automatic scoring system guarantee a fantastic time. With a variety of snacks and drinks available, you can enjoy a complete entertainment package. Relax and rejuvenate in our luxurious Jacuzzi. Let the warm, bubbling waters melt away your stress and worries, providing the ultimate soothing experience. Whether you're looking for a tranquil escape or a romantic evening, our Jacuzzi is the perfect oasis. Immerse yourself and unwind in pure bliss.Experience endless fun and excitement in our sleek bowling alley. Whether you're planning a night out with friends or a family gathering, our state-of-the-art lanes and automatic scoring system guarantee a fantastic time. With a variety of snacks and drinks available, you can enjoy a complete entertainment package.</p>
             </div>
             </section>
 
@@ -168,7 +168,9 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Squash</h1>
-              <p></p>
+              <p>
+              Get your heart pumping and enjoy an exhilarating game of squash in our well-maintained courts. Perfect for both beginners and seasoned players, our squash facilities offer a dynamic and competitive experience. Stay active, improve your agility, and have a blast with friends or fellow members. Join us on the court for an exciting game of squash today! Get your heart pumping and enjoy an exhilarating game of squash in our well-maintained courts. Perfect for both beginners and seasoned players, our squash facilities offer a dynamic and competitive experience. Stay active, improve your agility, and have a blast with friends or fellow members. Join us on the court for an exciting game of squash today! Get your heart pumping and enjoy an exhilarating game of squash in our well-maintained courts. Perfect for both beginners and seasoned players, our squash facilities offer a dynamic and competitive experience. Stay active, improve your agility, and have a blast with friends or fellow members. Join us on the court for an exciting game of squash today!
+              </p>
             </div>
             </section>
 
@@ -178,7 +180,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Banquets</h1>
-              <p></p>
+              <p>Elevate your special occasions in our elegant banquet halls. Our versatile event spaces are ideal for weddings, parties, and corporate gatherings. With flexible seating arrangements, exquisite decor, and professional event planning services, we create memorable and seamless events tailored to your unique needs. Let us turn your celebrations into unforgettable experiencesElevate your special occasions in our elegant banquet halls. Our versatile event spaces are ideal for weddings, parties, and corporate gatherings. With flexible seating arrangements, exquisite decor, and professional event planning services, we create memorable and seamless events tailored to your unique needs. Let us turn your celebrations into unforgettable experiencesElevate your special occasions in our elegant banquet halls. Our versatile event spaces are ideal for weddings, parties, and corporate gatherings. With flexible seating arrangements, exquisite decor, and professional event planning services, we create memorable and seamless events tailored to your unique needs. Let us turn your celebrations into unforgettable experiences</p>
             </div>
             </section>
 
@@ -188,7 +190,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Cricket ground</h1>
-              <p></p>
+              <p>Experience the thrill of the game on our expansive cricket ground. Whether you're a passionate player or a devoted spectator, our well-maintained pitch and spacious viewing area provide the perfect setting for a day of cricket excitement. Gather your team, enjoy the great outdoors, and revel in the spirit of the sport. Join us on the field for a memorable day of cricket action.Experience the thrill of the game on our expansive cricket ground. Whether you're a passionate player or a devoted spectator, our well-maintained pitch and spacious viewing area provide the perfect setting for a day of cricket excitement. Gather your team, enjoy the great outdoors, and revel in the spirit of the sport. Join us on the field for a memorable day of cricket action.Experience the thrill of the game on our expansive cricket ground. Whether you're a passionate player or a devoted spectator, our well-maintained pitch and spacious viewing area provide the perfect setting for a day of cricket excitement. Gather your team, enjoy the great outdoors, and revel in the spirit of the sport. Join us on the field for a memorable day of cricket action.</p>
             </div>
             </section>
 
@@ -198,7 +200,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Salon</h1>
-              <p></p>
+              <p>Indulge in a day of pampering and self-care at our upscale salon. Our professional stylists and beauticians offer a wide range of services, from haircuts and styling to rejuvenating facials and massages. Unwind in a relaxing atmosphere and emerge looking and feeling your best. Treat yourself to the ultimate salon experience, where luxury meets personal care.Indulge in a day of pampering and self-care at our upscale salon. Our professional stylists and beauticians offer a wide range of services, from haircuts and styling to rejuvenating facials and massages. Unwind in a relaxing atmosphere and emerge looking and feeling your best. Treat yourself to the ultimate salon experience, where luxury meets personal care.Indulge in a day of pampering and self-care at our upscale salon. Our professional stylists and beauticians offer a wide range of services, from haircuts and styling to rejuvenating facials and massages. Unwind in a relaxing atmosphere and emerge looking and feeling your best. Treat yourself to the ultimate salon experience, where luxury meets personal care.</p>
             </div>
             </section>
 
@@ -208,7 +210,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Pool Table</h1>
-              <p></p>
+              <p>Challenge your friends to a game of skill and strategy on our pristine pool tables. Whether you're a seasoned player or a casual enthusiast, our well-maintained tables and inviting atmosphere make for an enjoyable experience. Grab a cue, break the rack, and aim for the winning shot in a friendly, competitive setting. Join us for a fun and social game of pool today.Challenge your friends to a game of skill and strategy on our pristine pool tables. Whether you're a seasoned player or a casual enthusiast, our well-maintained tables and inviting atmosphere make for an enjoyable experience. Grab a cue, break the rack, and aim for the winning shot in a friendly, competitive setting. Join us for a fun and social game of pool today.Challenge your friends to a game of skill and strategy on our pristine pool tables. Whether you're a seasoned player or a casual enthusiast, our well-maintained tables and inviting atmosphere make for an enjoyable experience. Grab a cue, break the rack, and aim for the winning shot in a friendly, competitive setting. Join us for a fun and social game of pool today.</p>
             </div>
             </section>
 
@@ -218,7 +220,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Badminton Court</h1>
-              <p></p>
+              <p>Dribble, shoot, and score on our fantastic basketball court. Whether you're a budding baller or a seasoned pro, our well-maintained court provides the perfect space to enjoy the game. With ample room to play, great lighting, and a welcoming atmosphere, you can practice your skills, host friendly matches, and embrace the love of the game. Join us on the court for some high-flying, slam-dunking fun!Dribble, shoot, and score on our fantastic basketball court. Whether you're a budding baller or a seasoned pro, our well-maintained court provides the perfect space to enjoy the game. With ample room to play, great lighting, and a welcoming atmosphere, you can practice your skills, host friendly matches, and embrace the love of the game. Join us on the court for some high-flying, slam-dunking fun!Dribble, shoot, and score on our fantastic basketball court. Whether you're a budding baller or a seasoned pro, our well-maintained court provides the perfect space to enjoy the game. With ample room to play, great lighting, and a welcoming atmosphere, you can practice your skills, host friendly matches, and embrace the love of the game. Join us on the court for some high-flying, slam-dunking fun!</p>
             </div>
             </section>
 
@@ -228,7 +230,7 @@ export default function Main(){
             </div>
             <div  className="textwrite">
               <h1 className="texthead">Basketball Court</h1>
-              <p></p>
+              <p>Experience the fast-paced action of badminton on our top-notch court. Whether you're a competitive player or enjoy a casual game, our well-maintained facility offers the perfect environment to enjoy the sport. With proper lighting and spacious surroundings, you can serve, volley, and smash your way to victory or simply have a great time with friends and fellow enthusiasts. Join us on the badminton court for an energizing and fun-filled game.Experience the fast-paced action of badminton on our top-notch court. Whether you're a competitive player or enjoy a casual game, our well-maintained facility offers the perfect environment to enjoy the sport. With proper lighting and spacious surroundings, you can serve, volley, and smash your way to victory or simply have a great time with friends and fellow enthusiasts. Join us on the badminton court for an energizing and fun-filled game.Experience the fast-paced action of badminton on our top-notch court. Whether you're a competitive player or enjoy a casual game, our well-maintained facility offers the perfect environment to enjoy the sport. With proper lighting and spacious surroundings, you can serve, volley, and smash your way to victory or simply have a great time with friends and fellow enthusiasts. Join us on the badminton court for an energizing and fun-filled game.</p>
             </div>
             </section>
 
@@ -238,7 +240,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Arcade</h1>
-              <p></p>
+              <p>Step into a world of nostalgia and excitement in our vibrant arcade. Packed with a variety of classic and modern games, our arcade is the ultimate destination for gamers of all ages. Challenge your skills, win prizes, and create lasting memories with friends and family. From timeless pinball machines to cutting-edge video games, our arcade promises hours of non-stop fun. Join us for a gaming adventure that's sure to keep you entertained!Step into a world of nostalgia and excitement in our vibrant arcade. Packed with a variety of classic and modern games, our arcade is the ultimate destination for gamers of all ages. Challenge your skills, win prizes, and create lasting memories with friends and family. From timeless pinball machines to cutting-edge video games, our arcade promises hours of non-stop fun. Join us for a gaming adventure that's sure to keep you entertained!Step into a world of nostalgia and excitement in our vibrant arcade. Packed with a variety of classic and modern games, our arcade is the ultimate destination for gamers of all ages. Challenge your skills, win prizes, and create lasting memories with friends and family. From timeless pinball machines to cutting-edge video games, our arcade promises hours of non-stop fun. Join us for a gaming adventure that's sure to keep you entertained!</p>
             </div>
             </section>
 
@@ -248,7 +250,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Bar</h1>
-              <p></p>
+              <p>Unwind and socialize in our inviting bar, the perfect spot for relaxation and good times. Whether you're looking to enjoy a crafted cocktail, savor a fine wine, or share a cold beer with friends, our well-stocked bar has you covered. With a cozy atmosphere and a diverse selection of beverages, it's the ideal place to unwind and make memories. Join us at the bar for a memorable night out.Unwind and socialize in our inviting bar, the perfect spot for relaxation and good times. Whether you're looking to enjoy a crafted cocktail, savor a fine wine, or share a cold beer with friends, our well-stocked bar has you covered. With a cozy atmosphere and a diverse selection of beverages, it's the ideal place to unwind and make memories. Join us at the bar for a memorable night out.Unwind and socialize in our inviting bar, the perfect spot for relaxation and good times. Whether you're looking to enjoy a crafted cocktail, savor a fine wine, or share a cold beer with friends, our well-stocked bar has you covered. With a cozy atmosphere and a diverse selection of beverages, it's the ideal place to unwind and make memories. Join us at the bar for a memorable night out.</p>
             </div>
             </section>
 
@@ -258,7 +260,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Sleeping Pods</h1>
-              <p></p>
+              <p>Recharge and rejuvenate in our cozy sleeping pods. Designed for ultimate comfort and relaxation, our sleeping pods offer a private sanctuary where you can escape the daily hustle and enjoy a peaceful nap. Equipped with soft bedding and ambient lighting, they provide the perfect space to rest and revitalize. Step into one of our sleeping pods and experience a blissful moment of tranquility and restful sleep.Recharge and rejuvenate in our cozy sleeping pods. Designed for ultimate comfort and relaxation, our sleeping pods offer a private sanctuary where you can escape the daily hustle and enjoy a peaceful nap. Equipped with soft bedding and ambient lighting, they provide the perfect space to rest and revitalize. Step into one of our sleeping pods and experience a blissful moment of tranquility and restful sleep.Recharge and rejuvenate in our cozy sleeping pods. Designed for ultimate comfort and relaxation, our sleeping pods offer a private sanctuary where you can escape the daily hustle and enjoy a peaceful nap. Equipped with soft bedding and ambient lighting, they provide the perfect space to rest and revitalize. Step into one of our sleeping pods and experience a blissful moment of tranquility and restful sleep.</p>
             </div>
             </section>
 
@@ -268,7 +270,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Mini Theatre</h1>
-              <p></p>
+              <p>Escape into the world of entertainment in our intimate mini-theatre. Designed for cinematic experiences, our theatre boasts a state-of-the-art sound system and high-definition projection, ensuring an immersive movie-watching experience. Whether you're a film enthusiast or just looking for a cozy night out, our mini-theatre offers the perfect setting for private screenings, movie nights, or special events. Join us in this cinematic haven, where every show is a memorable experience on the big screen.Escape into the world of entertainment in our intimate mini-theatre. Designed for cinematic experiences, our theatre boasts a state-of-the-art sound system and high-definition projection, ensuring an immersive movie-watching experience. Whether you're a film enthusiast or just looking for a cozy night out, our mini-theatre offers the perfect setting for private screenings, movie nights, or special events. Join us in this cinematic haven, where every show is a memorable experience on the big screen.Escape into the world of entertainment in our intimate mini-theatre. Designed for cinematic experiences, our theatre boasts a state-of-the-art sound system and high-definition projection, ensuring an immersive movie-watching experience. Whether you're a film enthusiast or just looking for a cozy night out, our mini-theatre offers the perfect setting for private screenings, movie nights, or special events. Join us in this cinematic haven, where every show is a memorable experience on the big screen.</p>
             </div>
             </section>
 
@@ -278,7 +280,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Library</h1>
-              <p></p>
+              <p>Dive into the world of literature and knowledge in our tranquil library. With a vast collection of books spanning various genres, our library is a haven for readers and learners alike. Find solace in the peaceful ambiance and lose yourself in captivating stories, informative texts, and timeless classics. Whether you seek to explore new worlds or delve into research, our library is a sanctuary for the curious mind. Join us and embark on a journey through the pages of countless stories and wisdom. Dive into the world of literature and knowledge in our tranquil library. With a vast collection of books spanning various genres, our library is a haven for readers and learners alike. Find solace in the peaceful ambiance and lose yourself in captivating stories, informative texts, and timeless classics. Whether you seek to explore new worlds or delve into research, our library is a sanctuary for the curious mind. Join us and embark on a journey through the pages of countless stories and wisdom. Dive into the world of literature and knowledge in our tranquil library. With a vast collection of books spanning various genres, our library is a haven for readers and learners alike. Find solace in the peaceful ambiance and lose yourself in captivating stories, informative texts, and timeless classics. Whether you seek to explore new worlds or delve into research, our library is a sanctuary for the curious mind. Join us and embark on a journey through the pages of countless stories and wisdom.</p>
             </div>
             </section>
 
@@ -288,7 +290,7 @@ export default function Main(){
             </div>
             <div className="textwrite">
               <h1 className="texthead">Children's Play Area</h1>
-              <p></p>
+              <p>Let your children's imaginations run wild in our vibrant and safe children's play area. Our thoughtfully designed space is filled with engaging activities, from colorful play structures to interactive games, ensuring endless fun and creativity. Watch as your little ones make new friends and create lasting memories in a secure and enjoyable environment. Join us for a day of laughter and play, where children's dreams come to life.Let your children's imaginations run wild in our vibrant and safe children's play area. Our thoughtfully designed space is filled with engaging activities, from colorful play structures to interactive games, ensuring endless fun and creativity. Watch as your little ones make new friends and create lasting memories in a secure and enjoyable environment. Join us for a day of laughter and play, where children's dreams come to life.Let your children's imaginations run wild in our vibrant and safe children's play area. Our thoughtfully designed space is filled with engaging activities, from colorful play structures to interactive games, ensuring endless fun and creativity. Watch as your little ones make new friends and create lasting memories in a secure and enjoyable environment. Join us for a day of laughter and play, where children's dreams come to life.</p>
             </div>
 
             </section>

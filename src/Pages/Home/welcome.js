@@ -1,9 +1,9 @@
 import React from "react"
-import {Link} from "react-router-dom"
 import icon1 from "../../Images/w-icon-1.svg"
 import icon2 from "../../Images/w-icon-2.svg"
 import icon3 from "../../Images/w-icon-3.svg"
 import icon4 from "../../Images/w-icon-4.svg"
+import { HashLink } from "react-router-hash-link"
 
 export default function Welcome(){
     return(
@@ -20,7 +20,7 @@ export default function Welcome(){
                         <img src={icon1} alt="icon" width="100px" className="icon h-[150px]" />
                     </div>
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ml-1">6+ Indoor Sporting Amenities</h1>
-                    <Link to="#" className="btn-lm text-2xl">➜</Link>
+                    <HashLink smooth to={`/lm#1`} className="btn-lm text-2xl">➜</HashLink>
                 </div>
                 
                 <div data-aos="fade-right" data-aos-once="true" data-aos-duration="600" className="mt-3 px-1 basis-1/4">
@@ -28,15 +28,15 @@ export default function Welcome(){
                         <img src={icon2} alt="icon" width="100px" className="icon h-[150px]" />
                     </div>
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ml-1">Several Membership Options</h1>
-                    <Link to="#" className="btn-lm text-2xl">➜</Link>
+                    <HashLink smooth to={`/lm#2`} className="btn-lm text-2xl">➜</HashLink>
                 </div>
 
                 <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" className="mt-3 px-1 basis-1/4">
                     <div className="flex justify-center">
                         <img src={icon3} alt="icon" width="100px" className="icon h-[150px]"/>
                     </div>
-                    <h1 className="text-4xl font-semibold py-10 h-[200px] ml-1"> Remarkable Grand Hallways</h1>
-                    <Link to="#" className="btn-lm text-2xl">➜</Link>
+                    <h1 className="text-4xl font-semibold py-10 h-[200px] ml-1">Customize your Packages</h1>
+                    <HashLink smooth to={`/lm#3`} className="btn-lm text-2xl">➜</HashLink>
                 </div>
                     
                 <div data-aos="fade-right" data-aos-once="true" data-aos-duration="1400" className="mt-3 px-1 basis-1/4">
@@ -44,7 +44,7 @@ export default function Welcome(){
                         <img src={icon4} alt="icon" width="100px" className="icon h-[150px]"/>
                     </div>
                     <h1 className="text-4xl font-semibold py-10 h-[200px] ml-1">Fine Dine Restaurants & Cafes</h1>
-                    <Link to="#" className="btn-lm text-2xl">➜</Link>
+                    <HashLink smooth to={`/lm#4`} className="btn-lm text-2xl">➜</HashLink>
                 </div>
             </section>
         </div>

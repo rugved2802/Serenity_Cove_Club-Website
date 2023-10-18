@@ -1,6 +1,6 @@
 import id1 from "../../Images/basic-mem.svg"
 import id2 from "../../Images/corp-mem.svg"
-import id3 from "../../Images/life-mem.svg"
+import id3 from "../../Images/sports-mem.svg"
 import id4 from "../../Images/life-mem.svg"
 
 const memData = [
@@ -19,8 +19,8 @@ const memData = [
 {
     id:3,
     img: id3,
-    title: "Premium Membership",
-    description: "Seeking a heightened level of luxury and exclusivity, I am thrilled to apply for the Premium Membership at Serenity Cove Club. With premium access to top-tier amenities such as [highlight specific benefits], I look forward to indulging in a lifestyle of unparalleled comfort and sophistication. Becoming a premium member is not just an upgrade—it's an invitation to elevate my experiences at Serenity Cove to extraordinary heights."
+    title: "Sports or Fitness Membership",
+    description: "Applying for Serenity Cove Club's Sports and Fitness Membership to access cutting-edge facilities, personalized sports activities, and wellness programs. Eager to elevate my physical well-being, I anticipate joining a community that shares my passion for an active and healthy lifestyle."
 },
 {
     id:4,
