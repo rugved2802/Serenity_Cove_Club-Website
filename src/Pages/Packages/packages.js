@@ -15,7 +15,7 @@ export default function Packages(props){
                 <div className="text-xl mb-6 font-extralight">
                     {props.description}
                 </div>
-                <Link to="/reservations" className="btn-book font-bold text-lg">Book now!</Link>
+                <Link to="/resv-pack" className="btn-book font-bold text-lg">Book now!</Link>
             </div>
         </div>
     )

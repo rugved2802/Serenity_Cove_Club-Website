@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router-dom"
+import { HashLink } from 'react-router-hash-link'
 
 export default function Amenities(props){
     return(
@@ -9,7 +9,7 @@ export default function Amenities(props){
                     <img src={props.img} alt="img" className="w-[400px] picture"/>
                 </div>
                 <div className="block">
-                <Link to="" className="btn-link text-white font-semibold text-3xl">{props.title}</Link>
+                <HashLink smooth to={`/xinfo#${props.title}`} className="btn-link text-white font-semibold text-3xl">{props.title}</HashLink>
                 </div>
             </div>
         </div>

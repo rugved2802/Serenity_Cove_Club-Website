@@ -1,4 +1,23 @@
-import id1 from "../../Images/basic-mem.svg"
+import id1 from "../../Images/pack/pack1.jpg"
+import id2 from "../../Images/pack/pack2.jpg"
+import id3 from "../../Images/pack/pack3.jpg"
+import id4 from "../../Images/pack/pack4.jpg"
+import id5 from "../../Images/pack/pack5.jpg"
+import id6 from "../../Images/pack/pack6.jpg"
+import id7 from "../../Images/pack/pack7.jpg"
+import id8 from "../../Images/pack/pack8.jpg"
+import id9 from "../../Images/pack/pack9.jpg"
+import id10 from "../../Images/pack/pack10.jpg"
+import id11 from "../../Images/pack/pack11.jpg"
+import id12 from "../../Images/pack/pack12.jpg"
+import id13 from "../../Images/pack/pack13.jpg"
+import id14 from "../../Images/pack/pack14.jpg"
+import id15 from "../../Images/pack/pack15.jpg"
+import id16 from "../../Images/pack/pack16.jpg"
+import id17 from "../../Images/pack/pack17.jpg"
+import id18 from "../../Images/pack/pack18.jpg"
+import id19 from "../../Images/pack/pack19.jpg"
+import id20 from "../../Images/pack/pack20.jpg"
 
 
 const packData = [
@@ -7,15 +26,15 @@ const packData = [
         img: id1,
         title: 'Weekend Wellness Retreat',
         description: [
-        'Enjoy a serene 2-night stay in our luxurious hotel.',
-        'Rejuvenate with exclusive access to our world-class Spa.',
-        'Unwind in the Jacuzzi and let your worries melt away.',
-        'Start your day with a complimentary breakfast, revitalizing your mornings.'
+        'Enjoy a serene 2-night stay in our luxurious hotel. ',
+        'Rejuvenate with exclusive access to our world-class Spa. ',
+        'Unwind in the Jacuzzi and let your worries melt away. ',
+        'Start your day with a complimentary breakfast, revitalizing your mornings. '
     ]
 },
 {
         id: 2,
-        img: id1,
+        img: id2,
         title: 'Family Fun Package',
         description: [
         'Create lasting memories during a 3-night stay at our family-friendly hotel.',
@@ -25,7 +44,7 @@ const packData = [
 },
 {
         id: 3,
-        img: id1,
+        img: id3,
         title: 'Sports Enthusiast Getaway',
         description: [
         'Embrace your inner athlete with a 4-night stay at our sports-themed hotel.',
@@ -35,7 +54,7 @@ const packData = [
 },
 {
         id: 4,
-        img: id1,
+        img: id4,
         title: 'Romantic Spa Escape',
         description: [
         'Share a romantic 2-night escape with your loved one.',
@@ -45,7 +64,7 @@ const packData = [
 },
 {
         id: 5,
-        img: id1,
+        img: id5,
         title: "Business Traveler's Delight",
         description: [
         'Make your business trip enjoyable with a 3-night stay.',
@@ -55,7 +74,7 @@ const packData = [
 },
 {
         id: 6,
-        img: id1,
+        img: id6,
         title: "Adventure Seeker's Retreat",
         description: [
         'Find your thrill during a 2-night stay.',
@@ -65,7 +84,7 @@ const packData = [
 },
 {
         id: 7,
-        img: id1,
+        img: id7,
         title: 'Culinary Experience',
         description: [
         'Satisfy your taste buds during a 3-night stay.',
@@ -75,7 +94,7 @@ const packData = [
 },
 {
         id: 8,
-        img: id1,
+        img: id8,
         title: 'Ultimate Relaxation',
         description: [
         'Unwind with a 2-night stay of pure relaxation.',
@@ -85,7 +104,7 @@ const packData = [
 },
 {
         id: 9,
-        img: id1,
+        img: id9,
         title: 'Fitness Fanatic Package',
         description: [
         'Stay fit during a 4-night stay.',
@@ -94,8 +113,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 10,
-
+        id: 10,
+        img: id10,
         title: "Kids' Wonderland",
         description: [
         'Treat your kids to a 2-night stay in a wonderland designed just for them.',
@@ -104,8 +123,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 11,
-
+        id: 11,
+        img: id11,
         title: 'Luxury Banquets Experience',
         description: [
         'Experience luxury with a 3-night stay.',
@@ -114,8 +133,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 12,
-
+        id: 12,
+        img: id12,
         title: 'Theatre and Dine',
         description: [
         'Enjoy a cultural escape with a 2-night stay.',
@@ -124,8 +143,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 13,
-
+        id: 13,
+        img: id13,
         title: 'Art and Culture Getaway',
         description: [
         'Immerse yourself in local culture during a 3-night stay.',
@@ -134,8 +153,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 14,
-
+        id: 14,
+        img: id14,
         title: 'Weekend Game On',
         description: [
         'Unleash your inner gamer during a 2-night stay.',
@@ -144,8 +163,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 15,
-
+        id: 15,
+        img: id15,
         title: 'Relax and Recharge',
         description: [
         'Recharge your body and soul with a 4-night stay.',
@@ -154,8 +173,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 16,
-
+        id: 16,
+        img: id16,
         title: 'Basketball Challenge',
         description: [
         'Get your adrenaline pumping during a 2-night stay.',
@@ -164,8 +183,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 17,
-
+        id: 17,
+        img: id17,
         title: 'Squash and Salon',
         description: [
         'Treat yourself to a 3-night stay of pampering and activity.',
@@ -174,8 +193,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 18,
-
+        id: 18,
+        img: id18,
         title: 'Bar Hopping Weekend',
         description: [
         'Savor the nightlife during a 2-night stay.',
@@ -184,8 +203,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 19,
-
+        id: 19,
+        img: id19,
         title: 'Family Bookworm Retreat',
         description: [
         'Ignite your children\'s love for reading with a 3-night stay.',
@@ -194,8 +213,8 @@ const packData = [
     ]
 },
 {
-                img: id1,id: 20,
-
+        id: 20,
+        img: id20,
         title: 'The Great Outdoors',
         description: [
         'Embrace the outdoors with a 4-night stay.',

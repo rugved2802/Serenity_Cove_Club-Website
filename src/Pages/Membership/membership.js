@@ -15,7 +15,7 @@ export default function Membership(props){
                 <div className="text-xl mb-6 font-extralight">
                     {props.description}
                 </div>
-                <Link to="/reservations" className="btn-know font-bold text-lg">Book now</Link>
+                <Link to="/resv-mem" className="btn-know font-bold text-lg">Book now</Link>
             </div>
         </div>
     )
